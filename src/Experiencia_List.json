@@ -6,9 +6,9 @@
     "tittle": "Shinypants",
     "desc": "O design original foi feito pelo artista <strong>ablackwe</strong>.Achei bem interessante e decidi cria-lo em 3D, foi assim que eu consegui meu maior recordede likes no Pinterest!",
     "link": "https://br.pinterest.com/pin/657103401897047946/",
-    "img": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/shinypants-wide.png?raw=true",
-    "poster": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/shinypants-pose.png?raw=true",
-    "cover": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/shinypants.gif?raw=true"
+    "img": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/shinypants-wide.png?token=GHSAT0AAAAAADBKDC7OJG6H6YQBZZIJTUKK2AC4UBA",
+    "poster": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/shinypants-pose.png?token=GHSAT0AAAAAADBKDC7OHJESS6ILVGP4LOWU2AC4UQQ",
+    "cover": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/shinypants.gif?token=GHSAT0AAAAAADBKDC7ODDP43CUTU2VWPXUS2AC4UUA"
   },
   {
     "active": "",
@@ -17,9 +17,9 @@
     "tittle": "The Creation",
     "desc": "Esse foi 1 dos meus robôs com designs próprio, também é um dos poucos que decidi fazer sem o visual cartonesco/anime, ficou até melhor do que eu esperava, mas ainda vejo muitas melhorias que posso fazer no design dele.",
     "link": "https://www.artstation.com/artwork/P64vo1",
-    "img": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/dugarai_wide.png?raw=true",
-    "poster": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/creation-pose.png?raw=true",
-    "cover": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/dugarai_wide.png?raw=true"
+    "img": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/creation-wide.png?token=GHSAT0AAAAAADBKDC7OCIXCEMYC3S4CG7S22AC4VMA",
+    "poster": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/creation-pose.png?token=GHSAT0AAAAAADBKDC7PQ3EO22ZUVTCJ7PK22AC4VIQ",
+    "cover": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/creation-wide.png?token=GHSAT0AAAAAADBKDC7OCIXCEMYC3S4CG7S22AC4VMA"
   },
   {
     "active": "",
@@ -28,9 +28,20 @@
     "tittle": "Red Velvet Cookie",
     "desc": "Meu personagem favorito do jogo <strong>Cookie Run: Kingdom</strong>. Esse foi o meu trabalho mais bem feito e fiel ao material de referência na epóca, simplismente uma obra prima.",
     "link": "https://br.pinterest.com/pin/657103401894491261/",
-    "img": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/rvc.png?raw=true",
-    "poster": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/redvelvet-pose.png?raw=true",
-    "cover": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/rvc.png?raw=true"
+    "img": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/rvc.png?token=GHSAT0AAAAAADBKDC7PTNMOEWBCUM5ZJNKM2AC4WFQ",
+    "poster": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/rvc-pose.png?token=GHSAT0AAAAAADBKDC7PCN32ZEWHOIM3YOFA2AC4WIQ",
+    "cover": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/rvc.png?token=GHSAT0AAAAAADBKDC7PTNMOEWBCUM5ZJNKM2AC4WFQ"
+  },
+  {
+    "active": "",
+    "id": "lampbot",
+    "type": "Modelo 3D",
+    "tittle": "LampBot",
+    "desc": "Achei o design dele pelo Pinterest criado por <strong>Gaziter</strong>. Esse eu quis dar o maximo que podia pra manter o mais fiel possivel ao original, foi bem desafiador por conta da perspectiva, mas devo adimitir que valeu cada hora.",
+    "link": "https://br.pinterest.com/pin/657103401920488219/",
+    "img": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/rvc.png?token=GHSAT0AAAAAADBKDC7PTNMOEWBCUM5ZJNKM2AC4WFQ",
+    "poster": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/rvc-pose.png?token=GHSAT0AAAAAADBKDC7PCN32ZEWHOIM3YOFA2AC4WIQ",
+    "cover": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/rvc.png?token=GHSAT0AAAAAADBKDC7PTNMOEWBCUM5ZJNKM2AC4WFQ"
   },
   {
     "active": "",
