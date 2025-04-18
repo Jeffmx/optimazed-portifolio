@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+*{
+  padding: 0%;
+  margin: 0%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --cor1: #000;
+  --cor2: #fcf4ec;
+
+  --ton1: #999;
+  --ton2: #727272;
+  --ton3: #3a3a3a;
+
+  --texto: "Goldman", sans-serif;
+  --dynamicPadding: 0px;
+  --vh: 0px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html, body{
+  height: 95%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+body{
+  padding: 4.5vh 4vh;
+  background-color: var(--cor1);
+}
+
+header{
+  clip-path: polygon(
+      5% 100%, 95% 100%,
+      100% 0%, 0% 0%
+  );
+
+  position: absolute;
+  left: 20%;
+  top: 3vh;
+  width: 60%;
+  height: 6vh;
+  z-index: 9;
+  background-color: var(--cor1);
+}
+
+.main_conteiner{
+  width: 100%;
+  height: 89svh;
+  background-color: var(--cor2);
+  border-radius: 3vh;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  scroll-snap-type: y mandatory;
 }
 
-.App-link {
-  color: #61dafb;
+.main_conteiner section{
+  scroll-snap-stop: always;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.snap_target{
+  position: absolute;
+  align-self: center;
+  width: 50px;
+  height: 50px;
+}
+
+.snap_target:nth-child(2){
+  bottom: 50vh;
+}
+
+.mensagem{
+  position: absolute;
+  z-index: 10;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: black;
+  place-content: center;
+}
+
+.mensagem img{
+  width: 50%;
+  filter: invert();
 }

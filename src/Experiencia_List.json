@@ -1,0 +1,79 @@
+[
+  {
+    "active": "active",
+    "id": "shinypants",
+    "type": "Modelo 3D",
+    "tittle": "Shinypants",
+    "desc": "O design original foi feito pelo artista <strong>ablackwe</strong>.Achei bem interessante e decidi cria-lo em 3D, foi assim que eu consegui meu maior recordede likes no Pinterest!",
+    "link": "https://br.pinterest.com/pin/657103401897047946/",
+    "img": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/shinypants-wide.png?raw=true",
+    "poster": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/shinypants-pose.png?raw=true",
+    "cover": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/shinypants.gif?raw=true"
+  },
+  {
+    "active": "",
+    "id": "creation",
+    "type": "Modelo 3D",
+    "tittle": "The Creation",
+    "desc": "Esse foi 1 dos meus robôs com designs próprio, também é um dos poucos que decidi fazer sem o visual cartonesco/anime, ficou até melhor do que eu esperava, mas ainda vejo muitas melhorias que posso fazer no design dele.",
+    "link": "https://www.artstation.com/artwork/P64vo1",
+    "img": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/dugarai_wide.png?raw=true",
+    "poster": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/creation-pose.png?raw=true",
+    "cover": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/dugarai_wide.png?raw=true"
+  },
+  {
+    "active": "",
+    "id": "redvelvet",
+    "type": "Modelo 3D",
+    "tittle": "Red Velvet Cookie",
+    "desc": "Meu personagem favorito do jogo <strong>Cookie Run: Kingdom</strong>. Esse foi o meu trabalho mais bem feito e fiel ao material de referência na epóca, simplismente uma obra prima.",
+    "link": "https://br.pinterest.com/pin/657103401894491261/",
+    "img": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/rvc.png?raw=true",
+    "poster": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/redvelvet-pose.png?raw=true",
+    "cover": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/rvc.png?raw=true"
+  },
+  {
+    "active": "",
+    "id": "criptografia",
+    "type": "Web Design",
+    "tittle": "Criptografia de Textos",
+    "desc": "Se não me engano esse foi o primeiro projeto da <strong>Alura</strong>, um site bem simples até, os alunos precisavam programar a lógica por trás da criptografia seguindo um template pra trocar as vogais.",
+    "link": "https://decodificador-de-texto-six-alpha.vercel.app",
+    "img": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/decodificar.png?raw=true",
+    "poster": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/responsive.png?raw=true",
+    "cover": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/decodificar.png?raw=true"
+  },
+  {
+    "active": "",
+    "id": "fokus",
+    "type": "Web Design",
+    "tittle": "Fokus",
+    "desc": "O objetivo desse site foi fazer um sisteminha pra exibir o relogio e troca de modos, junto com implemento de sons para alguns botões.",
+    "link": "https://fokus-five-orpin.vercel.app",
+    "img": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/fokus-cover.png?raw=true",
+    "poster": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/responsive.png?raw=true",
+    "cover": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/fokus-cover.png?raw=true"
+  },
+  {
+    "active": "",
+    "id": "aluraflix",
+    "type": "Web Design",
+    "tittle": "Aluraflix",
+    "desc": "Ultimo desafio do curso e de longe o mais desafiador que fiz, aprendi muito enquanto fazia esse site e foi sem duvidas um dos mais legais que consegui fazer",
+    "link": "https://aluraflix-mu-lyart.vercel.app",
+    "img": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/aulraflix.png?raw=true",
+    "poster": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/responsive.png?raw=true",
+    "cover": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/aulraflix.png?raw=true"
+  },
+  {
+    "active": "",
+    "id": "galeria",
+    "type": "Web Design",
+    "tittle": "Galeria",
+    "desc": "Um novo site que fiz seguindo 1 design que salvei no Pinterest pela <strong>Art in love</strong>, ainda me dei o trabalho de fazer uma versão para Mobile e no geral esse projeto demorou basicamente 1 semana e como eu não tinha acesso as imagens de lá eu usei algumas minhas mesmo",
+    "link": "https://galeria-rust.vercel.app",
+    "img": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/Galeria.png?raw=true",
+    "poster": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/responsive.png?raw=true",
+    "cover": "https://github.com/Jeffmx/Portifolio/blob/main/imgs/Galeria.png?raw=true"
+  }
+]

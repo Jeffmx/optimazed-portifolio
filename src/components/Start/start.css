@@ -1,0 +1,165 @@
+.start_container{
+  width: 90%;
+  padding: 2vw;
+  justify-content: space-around;
+  align-content: flex-start;
+  position: relative;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 33svh 33svh;
+  row-gap: 10svh;
+  grid-template-areas: 
+  'texto texto logo'
+  'link sobre sobre';
+}
+
+@keyframes snap1 {
+  0%{
+      opacity: 0;
+      transform: translateX(var(--direcao));
+  }
+  100%{
+  }
+}
+
+.start_container.show{
+  .titulo, .follow,
+  .logo,.sobre_mim{
+      animation: snap1 .5s linear;
+      opacity: 1;
+  }
+
+  .titulo, .follow{
+      --direcao: -20vw;
+  }
+  .logo,.sobre_mim{
+      --direcao: 20vw;
+  }
+}
+
+.titulo, .follow,
+.logo,.sobre_mim{
+  opacity: 1;
+}
+
+.titulo{
+  grid-area: texto;
+  align-content: center;
+  color: var(--cor1);
+  font-size: 5vw;
+  font-family: var(--texto);
+}
+
+.logo{
+  grid-area: logo;
+  align-self: flex-end;
+  height: 100%;
+}
+
+.follow{
+  grid-area: link;
+  width: 21vw;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.follow_up::after,
+.follow_up::before,
+.sobre_mim_up::before{
+  content: '';
+  position: absolute;
+  width:  1.9vw;
+  height: 1.9vw;
+  background-image: radial-gradient(circle at 100% 100%, transparent 2vw, var(--ton2) 2vw);
+}
+
+.follow_up::after{
+  bottom: -.05vw;
+  left: -1.8vw;
+  rotate: 180deg;
+}
+
+.follow_up::before{
+  bottom: -.05vw;
+  right: -1.8vw;
+  rotate: -90deg;
+}
+
+.follow_up, .sobre_mim_up{
+  padding: 1vh .5vw;
+  padding-bottom: 0;
+
+  width: 12vw;
+  position: relative;
+
+  background-color: var(--ton2);
+  border-radius: 3vh 3vh 0 0;
+  
+  display: flex;
+  justify-content: center;
+  align-self: center;
+
+  font-size: 1.5vw;
+  font-weight: 300;
+  font-family: var(--texto);
+  color: var(--cor2);
+}
+
+.follow_content{
+  width: 90%;
+
+  background-color: var(--ton2);
+  border-radius: 2.5vh;
+  padding: 1vw 0;
+
+  display: grid;    
+  grid-template-columns: auto auto;
+  grid-template-rows: 8.5svh 8.5svh;
+  row-gap: 2.5vw;
+}
+
+.follow_content_item{
+  display: flex;
+  place-content: center;
+}
+
+.follow_content_img{
+  width: 40%;
+  border-radius: 50%;
+  transition: .3s;
+}
+
+.follow_content_img:hover{
+  box-shadow: 0 0 2vh var(--cor2);
+  scale: 1.2;
+}
+
+.sobre_mim{
+  grid-area: sobre;
+  width: 80%;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+.sobre_mim_up::before{
+  bottom: -.05vw;
+  right: -1.8vw;
+  rotate: -90deg;
+}
+
+.texto_sobre{
+  padding: 2.5vh;
+  height: 9svw;
+
+  border-radius: 2.5vh;
+  border-top-left-radius: 0;
+
+  font-size: 1.2vw;
+  font-weight: 200;
+  font-family: var(--texto);
+  color: var(--cor2);
+  background-color: var(--ton2);
+}

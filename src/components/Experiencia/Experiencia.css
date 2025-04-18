@@ -1,0 +1,27 @@
+@keyframes snap4 {
+  0%{
+      opacity: 0;
+      transform: translateY(var(--direcao));
+  }
+  100%{}
+}
+
+.experiencia.show{
+  .experiencia_nav, .experiencia_content{
+      opacity: 1;
+      animation: snap4 .5s;
+  }
+  .experiencia_nav{
+      --direcao: -20vw;
+  }
+  .experiencia_content{
+      --direcao: 20vw;
+  }
+}
+
+.experiencia{
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}

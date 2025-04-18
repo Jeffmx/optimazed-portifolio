@@ -1,0 +1,154 @@
+
+@keyframes snap2 {
+  0%{
+      opacity: 0;
+      transform: translate3d(0vh,80vh,0vh);
+  }
+  100%{opacity: 1;}
+}
+
+@keyframes snap2-1 {
+  0%{
+      width: 0px;
+  }
+  100%{}
+}
+
+.skills_container.show{
+  .skills_list, .skills_hobbies,
+  .skills_logo, .logo_skill{
+      opacity: 1;
+  }
+  .skills_list, .skills_hobbies{
+      animation: snap2 1s;
+      animation-delay: .01s;
+  }
+  .skills_logo{
+      animation: snap2-1 1s;
+      justify-self: center;
+      width: 30vw;
+  }
+  .logo_skill{
+      animation: snap2-1 1s;
+      width: 15vw;
+  }
+}
+
+.skills_list, .skills_hobbies,
+.skills_logo, .logo_skill{
+  opacity: 0;
+}
+
+.skills_container{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@keyframes scroll-skill{
+  0% {
+    transform:translateZ(0);
+  }
+  100% {
+    transform: translate3d(-81.5vw,0,0);
+  }
+}
+
+@keyframes scroll-hobbie {
+  0% {
+      transform:translateZ(0);
+    }
+    100% {
+      transform: translate3d(87vw,0,0);
+    }
+}
+
+.skills_list{
+  width: 110%;
+  height: 48vh;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  
+  grid-column: 1/span 3;
+  grid-row: 1;
+  z-index: 1;
+  
+  rotate: 15deg;
+  transform: translate(-3vw, 15vw);
+
+  align-self: flex-end;
+  background-color: var(--ton3);
+  box-shadow: -5vh 0px 2vh var(--ton3);
+}
+
+.skills_list::before{
+  content: 'Skills';
+  position: sticky;
+  
+  align-self: flex-start;
+  width: 0;
+  left: 10%;
+  
+  font-size: 3.5vw;
+  font-family: var(--texto);
+  font-style: italic;
+  color: var(--ton2);
+}
+
+.skills_logo{
+  height: 82svh;
+  display: grid;
+  box-shadow: 0 0 2vw var(--ton1);
+
+  justify-content: center;
+  align-content: start;
+  padding-top: 7vh;
+
+  grid-column: 2;
+  grid-row: 1;
+
+  background-color: var(--ton1);
+}
+
+.logo_skill{
+  width: 15vw;
+  height: auto;
+}
+
+.skills_hobbies{
+  width: 105%;
+  height: 50vh;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5%;
+  align-items: center;
+  
+  grid-column: 1/span 3;
+  grid-row: 1;
+  
+  rotate: -12.7deg;
+  transform: translate(-3vw, 10vw);
+  
+  align-self: flex-end;
+  background-color: var(--ton2);
+  box-shadow: -0 0 2vh var(--ton2);
+}
+
+.skills_hobbies::before{
+  content: 'Hobbies';
+  position: absolute;
+  
+  align-self: flex-start;
+  width: 0;
+  right: 20%;
+  
+  font-size: 3.5vw;
+  font-family: var(--texto);
+  font-style: italic;
+  color: var(--ton3);
+}
