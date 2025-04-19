@@ -6,9 +6,9 @@
     "tittle": "Shinypants",
     "desc": "O design original foi feito pelo artista <strong>ablackwe</strong>.Achei bem interessante e decidi cria-lo em 3D, foi assim que eu consegui meu maior recordede likes no Pinterest!",
     "link": "https://br.pinterest.com/pin/657103401897047946/",
-    "img": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/shinypants-wide.png?token=GHSAT0AAAAAADBKDC7OJG6H6YQBZZIJTUKK2AC4UBA",
-    "poster": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/shinypants-pose.png?token=GHSAT0AAAAAADBKDC7OHJESS6ILVGP4LOWU2AC4UQQ",
-    "cover": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/shinypants.gif?token=GHSAT0AAAAAADBKDC7ODDP43CUTU2VWPXUS2AC4UUA"
+    "img": "https://github.com/Jeffmx/optimazed-portifolio/blob/master/public/shinypants-wide.png?raw=true",
+    "poster": "https://github.com/Jeffmx/optimazed-portifolio/blob/master/public/shinypants-pose.png?raw=true",
+    "cover": "https://github.com/Jeffmx/optimazed-portifolio/blob/master/public/shinypants.gif?raw=true"
   },
   {
     "active": "",
