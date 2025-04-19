@@ -6,8 +6,8 @@
     "tittle": "Shinypants",
     "desc": "O design original foi feito pelo artista <strong>ablackwe</strong>.Achei bem interessante e decidi cria-lo em 3D, foi assim que eu consegui meu maior recordede likes no Pinterest!",
     "link": "https://br.pinterest.com/pin/657103401897047946/",
-    "img": "https://github.com/Jeffmx/optimazed-portifolio/blob/master/public/shinypants-wide.png?raw=true",
-    "poster": "https://github.com/Jeffmx/optimazed-portifolio/blob/master/public/shinypants-pose.png?raw=true",
+    "img": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/shinypants-wide.png?token=GHSAT0AAAAAADBKDC7OR233VESLUMDKOZSG2AC7SLA",
+    "poster": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/shinypants-pose.png?token=GHSAT0AAAAAADBKDC7OENRWYXOITLWVZIWQ2AC7SMQ",
     "cover": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/shinypants.gif?token=GHSAT0AAAAAADBKDC7PMMCYTIJCQC4NTAAC2AC7Q7Q"
   },
   {
@@ -17,9 +17,9 @@
     "tittle": "The Creation",
     "desc": "Esse foi 1 dos meus robôs com designs próprio, também é um dos poucos que decidi fazer sem o visual cartonesco/anime, ficou até melhor do que eu esperava, mas ainda vejo muitas melhorias que posso fazer no design dele.",
     "link": "https://www.artstation.com/artwork/P64vo1",
-    "img": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/creation-wide.png?token=GHSAT0AAAAAADBKDC7OCIXCEMYC3S4CG7S22AC4VMA",
-    "poster": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/creation-pose.png?token=GHSAT0AAAAAADBKDC7PQ3EO22ZUVTCJ7PK22AC4VIQ",
-    "cover": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/creation-wide.png?token=GHSAT0AAAAAADBKDC7OCIXCEMYC3S4CG7S22AC4VMA"
+    "img": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/creation-wide.png?token=GHSAT0AAAAAADBKDC7PTDT2D4ILKPCASI5I2AC7T3Q",
+    "poster": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/creation-pose.png?token=GHSAT0AAAAAADBKDC7PLK5WKNZUDXMX2RCC2AC7TZQ",
+    "cover": "https://raw.githubusercontent.com/Jeffmx/optimazed-portifolio/refs/heads/master/public/creation-wide.png?token=GHSAT0AAAAAADBKDC7PTDT2D4ILKPCASI5I2AC7T3Q"
   },
   {
     "active": "",
