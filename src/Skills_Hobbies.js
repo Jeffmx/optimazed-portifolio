@@ -1,6 +1,7 @@
 import CSS from "./assets/css.svg"
 import HTML from "./assets/html.svg"
 import Python from "./assets/python.svg"
+import Unreal from "./assets/unreal.svg"
 import Blender from "./assets/blender.svg"
 import JavaScript from "./assets/javascript.svg"
 
@@ -15,6 +16,7 @@ export const skills = [
   {src: Blender,    nome: "Blender"},
   {src: Python,     nome: "Python"},
   {src: HTML,       nome: "HTML"},
+  {src: Unreal,     nome: "UE5"},
   {src: CSS,        nome: "CSS"},
 ]
 
