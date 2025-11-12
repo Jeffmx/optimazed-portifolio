@@ -14,7 +14,7 @@ const Start = () =>{
           <ul className="follow_content">
             <a className="follow_content_item" href="https://github.com/Jeffmx">         <img className="follow_content_img" src={github}     alt="github"/>    </a>
             <a className="follow_content_item" href="https://linkedin.com/in/jeffmx-3d/"><img className="follow_content_img" src={linkedin}   alt="linkedin"/>  </a>
-            <a className="follow_content_item" href="https://br.pinterest.com/Jeff_MX9/"><img className="follow_content_img" src={pinterest}  alt="pinterest"/> </a>
+            <a className="follow_content_item" href="https://br.pinterest.com/9Kyushi/"><img className="follow_content_img" src={pinterest}  alt="pinterest"/> </a>
             <a className="follow_content_item" href="https://artstation.com/jeff-mx3">   <img className="follow_content_img" src={artstation} alt="artstation"/></a>
           </ul>
       </div>
