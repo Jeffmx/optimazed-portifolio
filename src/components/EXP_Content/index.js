@@ -22,7 +22,7 @@ export const ExpContent = ({id, cover, tittle, desc, link, poster, active}) =>{
       <a href={link} target="_blank" rel="noreferrer" className="content_text_button">Da uma olhada!</a>
     </div>
     <div className="experiencia_content_poster">
-      <img className="poster_img" src={poster} alt=`Demo ${tittle}`/>
+      <img className="poster_img" src={poster} alt={`Demo ${tittle}`}/>
     </div>
   </section>
   )
