@@ -1,7 +1,7 @@
 import './App.css'
 import { useEffect } from 'react'
 import Start from './components/Start'
-import Skills_Hobbies from './components/Skills_Hobbies'
+import SkillsHobbies from './components/SkillsHobbies'
 import Formacao from './components/Formacao'
 import Experiencia from './components/Experiencia'
 
@@ -22,7 +22,7 @@ function App() {
     <main className='main_conteiner'>
       <header>'</header>
       <Start/>
-      <Skills_Hobbies/>
+      <SkillsHobbies/>
       <Formacao/>
       <Experiencia/>
       <div className="mensagem">
