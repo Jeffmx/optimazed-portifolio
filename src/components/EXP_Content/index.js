@@ -1,6 +1,6 @@
 import "./EXP_Content.css"
 
-export const EXP_Nav = ({id, active, img, tittle, type}) =>{
+export const ExpNav = ({id, active, img, tittle, type}) =>{
   return(
     <li data-exp-target={`#${id}`} className={active}>
       <img className="experiencia_nav_img" src={img} alt={tittle}/>
@@ -12,7 +12,7 @@ export const EXP_Nav = ({id, active, img, tittle, type}) =>{
   )
 }
 
-export const EXP_Content = ({id, cover, tittle, desc, link, poster, active}) =>{
+export const ExpContent = ({id, cover, tittle, desc, link, poster, active}) =>{
   return(
     <section id={id} data-exp-content className={active}>
     <img className="experiencia_content_cover" src={cover} alt="Demo" />
