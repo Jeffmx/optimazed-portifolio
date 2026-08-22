@@ -1,4 +1,4 @@
-import {EXP_Content, EXP_Nav} from "../EXP_Content"
+import {ExpContent, ExpNav} from "../EXP_Content"
 import EXP_List from "../../Experiencia_List"
 import "./Experiencia.css"
 
@@ -7,7 +7,7 @@ const Experiencia = () => {
     <section className="experiencia">
       <aside className="experiencia_nav">
         {EXP_List.map(item => (
-          <EXP_Nav
+          <ExpNav
             id={item.id}
             img={item.img}
             desc={item.desc}
@@ -19,7 +19,7 @@ const Experiencia = () => {
       </aside>
       <div className="experiencia_content">
         {EXP_List.map(item => (
-          <EXP_Content
+          <ExpContent
             id={item.id}
             desc={item.desc}
             link={item.link}
