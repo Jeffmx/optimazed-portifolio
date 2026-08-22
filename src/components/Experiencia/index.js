@@ -1,5 +1,5 @@
-import {ExpContent, ExpNav} from "../EXP_Content"
-import EXP_List from "../../Experiencia_List"
+import {ExpContent, ExpNav} from "../ExpContent"
+import EXP_List from "../../ExpList"
 import "./Experiencia.css"
 
 const Experiencia = () => {

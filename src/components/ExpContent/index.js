@@ -1,4 +1,4 @@
-import "./EXP_Content.css"
+import "./EXPContent.css"
 
 export const ExpNav = ({id, active, img, tittle, type}) =>{
   return(

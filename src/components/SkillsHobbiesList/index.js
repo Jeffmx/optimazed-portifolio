@@ -1,6 +1,6 @@
-import "./Skills_Hobbies_List.css"
+import "./SkillsHobbiesList.css"
 
-const Skills_Hobbies_List = ({src, nome, type}) =>{
+const SkillsHobbiesList = ({src, nome, type}) =>{
   return(
     <li className={`${type}_list_item`}>
       <img className={`${type}_img`} src={src} alt={nome}/>
@@ -9,4 +9,4 @@ const Skills_Hobbies_List = ({src, nome, type}) =>{
   )
 }
 
-export default Skills_Hobbies_List
+export default SkillsHobbiesList

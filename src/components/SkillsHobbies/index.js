@@ -1,9 +1,8 @@
-import SkillsList from "../Skills_Hobbies_List/index.js"
-import {skills, hobbies} from "../../Skills_Hobbies.js"
+import SkillsList from "../SkillsHobbiesList/index.js"
+import {skills, hobbies} from "../../SkillsHobbies.js"
+import "./SkillsHobbies.css"
 
-import "./Skills_Hobbies.css"
-
-const Skills_Hobbies = () =>{
+const SkillsHobbies = () =>{
   return(
     <section className="skills_container">
       <ul className="skills_list">
@@ -48,4 +47,4 @@ const Skills_Hobbies = () =>{
   )
 }
 
-export default Skills_Hobbies
+export default SkillsHobbies
