@@ -10,16 +10,24 @@ const Formacao = () =>{
       <div className="formacao_nav">
         <ul>
           <li data-tab-target="#unibra" className="active">
-            <a href="#"> <img className="icon" src={unibra} alt="unibra"/> </a>
+            <button type="button" className="btn-logo">
+              <img className="icon" src={unibra} alt="unibra"/>
+            </button>
           </li>
           <li data-tab-target="#hashtag">
-            <a href="#"> <img className="icon" src={hashtag} alt="hashtag"/> </a>
+            <button type="button" className="btn-logo">
+              <img className="icon" src={hashtag} alt="hashtag"/>
+            </button>
           </li>
           <li data-tab-target="#saga">
-            <a href="#"> <img className="icon" src={saga} alt="saga"/> </a>
+            <button type="button" className="btn-logo">
+              <img className="icon" src={saga} alt="saga"/>
+            </button>
           </li>
           <li data-tab-target="#alura">
-            <a href="#"> <img className="icon" src={alura} alt="alura"/> </a>
+            <button type="button" className="btn-logo">
+              <img className="icon" src={alura} alt="alura"/>
+            </button>
           </li>
           <div className="seletor"></div>
         </ul>
